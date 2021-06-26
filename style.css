@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.2;
+}
+
+#logo {
+  color: dodgerblue;
+}
+
+#login,
+#logout,
+span {
+  font-size: 10px;
+  color: gray;
+  font-weight: 700;
+  background-color: white;
+  border: 0px;
+}
+
+#buttons {
+  display: flex;
+  margin-left: 750px;
+}
+
+.bookinfoBT {
+  width: 90px;
+}
+
+.info {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#login:hover {
+  color: black;
+}
+
+#divWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#divGlobalMenu {
+  display: flex;
+  align-items: center;
+  padding: 0 24px 0 29px;
+  height: 50px;
+  flex-direction: row-reverse;
+  margin: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  list-style: none;
+  float: left;
+  padding: 0 24px 0 29px;
+  border-bottom: 1px solid lightgray;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.searchbar {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#selectIndex {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.select {
+  margin-top: 8px;
+  padding: 0 10px 0 10px;
+}
+
+.select input[type="radio"] {
+  display: none;
+}
+.select input[type="radio"] + label {
+  display: inline-block;
+  cursor: pointer;
+  height: 38px;
+  border: 1px solid dodgerblue;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+.select input[type="radio"] + label {
+  background-color: #fff;
+  color: dodgerblue;
+}
+.select input[type="radio"]:checked + label {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.searchBnt {
+  width: 90px;
+  margin-left: 800px;
+}
+
+li {
+  display: list-item;
+}
+
+.menu li a {
+  font-weight: 700;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인 버튼 */
+#loginButton {
+  color: dodgerblue;
+  background-color: white;
+  border: none;
+  float: right;
+}
+
+/* 로그인 버튼 : hover */
+#loginButton:hover {
+  color: blue;
+}
+
+/* 회원가입 버튼 */
+#signUpButton {
+  color: dodgerblue;
+  background-color: white;
+  border: none;
+  float: right;
+}
+
+/* 회원가입 버튼 : hover */
+#signUpButton:hover {
+  color: blue;
+}
+
+footer {
+  margin-top: 100px;
+  height: 100px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
